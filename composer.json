@@ -1,0 +1,27 @@
+{
+  "name": "rest-full/filesystem",
+  "description": "They are filesystem that can add to the code.",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "mit",
+    "version": "1.0.0",
+  "authors": [
+    {
+      "name": "José Luis",
+      "email": "simaowebsolutions@yahoo.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Restfull\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.3",
+    "rest-full/error": "1.*",
+    "rest-full/container": "1.*",
+    "ext-gd": "*",
+    "ext-fileinfo": "*",
+    "ext-curl": "*"
+  }
+}
